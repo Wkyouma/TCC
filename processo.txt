@@ -1,9 +1,9 @@
 Order de execução (a partir da pasta mediaPipeArtefact):
 
-    1. python scripts/mediaPipe.py
-    2. python scripts/juntar_rotulos.py
-    3. python scripts/cortar.py
-    4. python scripts/LSTM.py
+    1. python scripts/mediaPipe.py para pegar o landmarks.
+    2. python scripts/juntar_rotulos.py para utililzar os rotulos já existentes do dataset.
+    3. python scripts/cortar.py cortar inicio dos ADL pois os mesmos demoram para aparecer o individuo no vídeo.
+    4. python scripts/LSTM.py para rodar o modelo LSTM.
 
 
 Resultados:

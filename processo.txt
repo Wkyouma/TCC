@@ -1,0 +1,19 @@
+Order de execução (a partir da pasta mediaPipeArtefact):
+
+    1. python scripts/mediaPipe.py
+    2. python scripts/juntar_rotulos.py
+    3. python scripts/cortar.py
+    4. python scripts/LSTM.py
+
+
+Resultados:
+
+               precision    recall  f1-score   support
+
+      estavel       0.95      0.86      0.91      1238
+desequilibrio       0.60      0.74      0.66       235
+        queda       0.79      0.99      0.88       266
+
+     accuracy                           0.86      1739
+    macro avg       0.78      0.86      0.82      1739
+ weighted avg       0.88      0.86      0.87      1739
